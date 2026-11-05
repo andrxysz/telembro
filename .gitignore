@@ -1,0 +1,16 @@
+# Dependências e saídas de compilação
+/node_modules/
+/dist/
+/release/
+/src-tauri/target/
+/src-tauri/gen/
+
+# Ferramentas temporárias e configuração local
+/.tools/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
